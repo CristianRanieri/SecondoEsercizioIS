@@ -20,7 +20,17 @@ public class CalcolatricceTest {
 
     @Test
     public void ProdottoTest(){
-        assertTrue("somma corretta",calcolatrice.prodotto(3,3)==9);
+        assertTrue("prodotto corretto",calcolatrice.prodotto(3,3)==9);
+    }
+    
+    @Test
+    public void DivisioneTest(){
+        assertTrue("divisione corretta",calcolatrice.divisione(6,3)==2);
+    }
+
+    @Test
+    public void SottrazioneTest(){
+        assertTrue("sottrazione corretta",calcolatrice.sottrazione(3,3)==0);
     }
 
 }
